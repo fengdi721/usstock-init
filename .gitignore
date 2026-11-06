@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+.vscode/
+.idea/
+# 账户截图、对账单等私人文件不要提交
+private/
+*.pdf
