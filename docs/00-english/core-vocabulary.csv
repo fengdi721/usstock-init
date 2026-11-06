@@ -1,0 +1,200 @@
+stock / share,股票 / 股份,She bought 10 shares of Apple stock.
+ticker (symbol),股票代码,Apple's ticker is AAPL.
+equity,股权；股票,Equities rallied after the Fed meeting.
+bid,买价（买方愿意出的最高价）,The bid is $100.10.
+ask / offer,卖价（卖方愿意接受的最低价）,The ask is $100.12.
+spread,价差（买卖价之差）,Liquid stocks have a tight spread.
+volume,成交量,Volume doubled on earnings day.
+liquidity,流动性,Small caps often have poor liquidity.
+market order,市价单,A market order fills immediately at the best price.
+limit order,限价单,I placed a limit order at $95.
+stop order,止损单,A stop order triggers when the price hits $90.
+fill,成交,My order was filled at $95.02.
+position,仓位；持仓,He closed his position in Tesla.
+long,做多；多头,I'm long Microsoft.
+short (selling),做空；卖空,Short sellers bet the stock will fall.
+portfolio,投资组合,Tech makes up 30% of my portfolio.
+brokerage / broker,券商,Interactive Brokers is a popular brokerage.
+account,账户,Open a margin account to trade options.
+margin,保证金（交易语境）；利润率（财报语境）,Buying on margin amplifies losses.
+leverage,杠杆,2x leverage doubles gains and losses.
+rally,反弹；大涨,Stocks rallied 2% on Friday.
+sell-off,抛售；大跌,A sell-off hit chip stocks.
+correction,回调（从高点跌 10% 以上）,The Nasdaq entered a correction.
+bear market,熊市（从高点跌 20% 以上）,The 2022 bear market lasted nine months.
+bull market,牛市,The bull market is in its third year.
+all-time high,历史新高,The S&P 500 closed at an all-time high.
+pre-market,盘前,Shares rose 5% in pre-market trading.
+after-hours,盘后,The stock fell after hours on weak guidance.
+opening bell / closing bell,开盘 / 收盘,Futures point higher ahead of the opening bell.
+futures,期货,Stock futures are flat this morning.
+index,指数,The S&P 500 index tracks 500 large companies.
+benchmark,基准,My portfolio beat its benchmark.
+sector,行业；板块,Energy was the best-performing sector.
+blue chip,蓝筹股,Coca-Cola is a classic blue chip.
+small cap / large cap,小盘股 / 大盘股,Small caps outperformed this month.
+IPO (initial public offering),首次公开募股；新股上市,The company priced its IPO at $30.
+halt,停牌,Trading was halted pending news.
+circuit breaker,熔断,A 7% drop triggers a market-wide circuit breaker.
+volatility,波动性,Volatility spiked during the crisis.
+hedge,对冲,Buy puts to hedge your stock position.
+earnings,盈利；财报,Nvidia reports earnings on Wednesday.
+earnings season,财报季,Earnings season kicks off with the big banks.
+quarter (Q1–Q4),季度,Revenue grew 12% in the third quarter.
+fiscal year (FY),财年,Apple's fiscal year ends in September.
+revenue / sales,营收,Revenue came in at $94.9 billion.
+top line,营收（利润表第一行）,Top-line growth slowed.
+bottom line,净利润（利润表最后一行）,Cost cuts helped the bottom line.
+net income,净利润,Net income rose 8% year over year.
+EPS (earnings per share),每股收益,"EPS was $1.64, beating estimates of $1.60."
+diluted EPS,稀释每股收益,Diluted EPS includes stock options.
+gross profit,毛利,Gross profit rose to $43 billion.
+operating income,营业利润,Operating income fell due to higher R&D.
+expenses / costs,费用 / 成本,Operating expenses rose 5%.
+R&D (research and development),研发,Meta spends heavily on R&D.
+cash flow,现金流,Operating cash flow was strong.
+free cash flow (FCF),自由现金流,Free cash flow hit a record $30 billion.
+balance sheet,资产负债表,The company has a strong balance sheet.
+income statement,利润表,Look at the income statement first.
+assets / liabilities,资产 / 负债,Total liabilities exceed total assets.
+debt,债务,The company paid down $5 billion of debt.
+shareholder / stockholder,股东,The CEO wrote a letter to shareholders.
+dividend,股息；分红,The board declared a quarterly dividend of $0.25.
+buyback / share repurchase,股票回购,Apple announced a $100 billion buyback.
+stock split,拆股,Nvidia did a 10-for-1 stock split.
+guidance / outlook,业绩指引 / 展望,The company cut its full-year guidance.
+consensus,市场一致预期,Results beat consensus estimates.
+estimate,预期；估计,Analysts' estimates were too high.
+beat / miss,超预期 / 不及预期,The company beat on revenue but missed on EPS.
+in line,符合预期,Results were in line with expectations.
+year over year (YoY),同比,Sales rose 15% year over year.
+quarter over quarter (QoQ) / sequentially,环比,Margins improved sequentially.
+segment,业务分部,The cloud segment grew 30%.
+CEO / CFO,首席执行官 / 首席财务官,The CFO explained the margin decline.
+board of directors,董事会,The board approved the deal.
+merger / acquisition (M&A),合并 / 收购,The acquisition is valued at $20 billion.
+spin-off,分拆,The company plans a spin-off of its unit.
+filing,（向 SEC 提交的）文件,The 10-K filing is due in February.
+annual report (10-K),年报,Risk factors are listed in the 10-K.
+quarterly report (10-Q),季报,The 10-Q is filed within 40 days.
+guidance raise / cut,上调 / 下调指引,A guidance cut sent shares lower.
+valuation,估值,Valuations look stretched.
+market capitalization (market cap),市值,Apple's market cap is over $3 trillion.
+P/E ratio (price-to-earnings),市盈率,The stock trades at 30 times earnings.
+forward P/E,预期市盈率（用未来 12 个月预期盈利）,Its forward P/E is 25.
+trailing (TTM),过去 12 个月,Trailing revenue is $380 billion.
+P/S ratio (price-to-sales),市销率,Unprofitable firms are valued on P/S.
+P/B ratio (price-to-book),市净率,Banks are often valued on P/B.
+EV (enterprise value),企业价值,EV equals market cap plus net debt.
+EBITDA,息税折旧摊销前利润,EV/EBITDA is 15x.
+multiple,倍数（估值倍数）,The stock trades at a premium multiple.
+margin (gross / operating / net),利润率（毛 / 营业 / 净）,Operating margin expanded to 30%.
+margin expansion / compression,利润率扩张 / 收缩,Investors worry about margin compression.
+growth rate,增长率,The revenue growth rate slowed to 5%.
+CAGR,年复合增长率,Sales grew at a 20% CAGR over five years.
+ROE (return on equity),净资产收益率,ROE above 15% is considered good.
+ROIC,投入资本回报率,High ROIC signals a strong moat.
+yield,收益率,The dividend yield is 3%.
+payout ratio,派息率,A 90% payout ratio may not be sustainable.
+book value,账面价值；净资产,The stock trades below book value.
+intrinsic value,内在价值,Buffett buys below intrinsic value.
+discount / premium,折价 / 溢价,It trades at a discount to peers.
+peer,同行；可比公司,"Compared with peers, it looks cheap."
+overvalued / undervalued,高估 / 低估,Some say AI stocks are overvalued.
+upside / downside,上涨空间 / 下跌空间,The analyst sees 20% upside.
+price target,目标价,Morgan Stanley raised its price target to $250.
+rating (buy / hold / sell),评级（买入 / 持有 / 卖出）,The analyst kept a hold rating.
+upgrade / downgrade,上调 / 下调评级,A downgrade sent shares 4% lower.
+overweight / underweight,增持 / 减持（评级用语）,JPMorgan rates the stock overweight.
+moat,护城河,Network effects give it a wide moat.
+headwind / tailwind,逆风 / 顺风（不利 / 有利因素）,A strong dollar is a headwind.
+run rate,年化运行速度,The business has a $10 billion annual run rate.
+backlog,积压订单,"Boeing's backlog stands at 5,000 planes."
+ARR (annual recurring revenue),年度经常性收入,SaaS firms report ARR.
+churn,客户流失率,Churn fell to 2%.
+basis point (bp),基点（0.01%）,Margins rose 50 basis points.
+percentage point,百分点,Rates rose by one percentage point.
+write-down / impairment,减记 / 减值,The company took a $2 billion impairment.
+one-time / non-recurring,一次性的,"Excluding one-time items, EPS was $2."
+GAAP / non-GAAP,按会计准则 / 非准则（调整后）,Non-GAAP EPS excludes stock compensation.
+adjusted,调整后的,Adjusted EBITDA rose 10%.
+the Fed (Federal Reserve),美联储,The Fed held rates steady.
+FOMC,联邦公开市场委员会（议息会议）,The FOMC meets eight times a year.
+interest rate,利率,Higher interest rates hurt growth stocks.
+federal funds rate,联邦基金利率,The federal funds rate is the Fed's main tool.
+rate hike / rate cut,加息 / 降息,Markets price in two rate cuts this year.
+basis point hike,加息若干基点,The Fed delivered a 25-basis-point cut.
+hawkish / dovish,鹰派（倾向加息） / 鸽派（倾向降息）,Powell sounded hawkish.
+inflation,通胀,Inflation cooled to 2.8%.
+CPI (consumer price index),消费者物价指数,CPI data comes out on Wednesday.
+core inflation,核心通胀（剔除食品和能源）,Core inflation remains sticky.
+PCE,个人消费支出物价指数（美联储最看重）,The Fed targets 2% PCE inflation.
+GDP,国内生产总值,GDP grew at a 2.5% annual rate.
+recession,经济衰退,Some economists expect a recession.
+soft landing / hard landing,软着陆 / 硬着陆,Investors hope for a soft landing.
+jobs report / nonfarm payrolls,就业报告 / 非农就业,"Nonfarm payrolls rose by 150,000."
+unemployment rate,失业率,The unemployment rate ticked up to 4.3%.
+Treasury / Treasuries,美国国债,Investors fled to Treasuries.
+yield (bond),债券收益率,The 10-year yield rose to 4.5%.
+yield curve,收益率曲线,An inverted yield curve signals recession.
+bond,债券,Bond prices fall when yields rise.
+dollar index (DXY),美元指数,The dollar index hit a two-year high.
+exchange rate,汇率,The EUR/USD exchange rate is 1.10.
+tariff,关税,New tariffs hit retailers.
+stimulus,刺激政策,China announced new stimulus.
+quantitative easing / tightening (QE / QT),量化宽松 / 量化紧缩,The Fed slowed the pace of QT.
+consumer spending,消费支出,Consumer spending drives 70% of GDP.
+retail sales,零售销售,Retail sales beat expectations.
+PMI,采购经理人指数,A PMI below 50 signals contraction.
+economic data / data release,经济数据 / 数据公布,Markets await key data releases.
+risk-on / risk-off,风险偏好上升 / 下降,It was a risk-off day as stocks fell.
+safe haven,避险资产,Gold is a safe haven.
+geopolitical,地缘政治的,Geopolitical tensions lifted oil prices.
+commodity,大宗商品,Commodity prices surged.
+crude oil (WTI / Brent),原油（WTI / 布伦特）,WTI crude rose to $80.
+dot plot,点阵图（美联储官员利率预测）,The dot plot shows three cuts next year.
+Powell / Fed chair,美联储主席,The Fed chair speaks at Jackson Hole.
+minutes,会议纪要,The FOMC minutes are released three weeks later.
+data-dependent,依赖数据（决策看数据）,The Fed says it is data-dependent.
+priced in,已被市场消化,The rate cut is already priced in.
+macro,宏观,Macro risks dominate the market.
+rise / gain,上涨（普通）,Shares rose 2%.
+climb,攀升（普通）,The index climbed for a third day.
+edge up / inch up,小幅上涨（很小）,Stocks edged up in quiet trading.
+jump,跳涨（较大）,Shares jumped 8% on the news.
+surge / soar,飙升（很大）,Nvidia soared 15% after earnings.
+skyrocket,暴涨（极大）,The meme stock skyrocketed 300%.
+rebound / bounce,反弹,Stocks rebounded after a sell-off.
+fall / decline / drop,下跌（普通）,Shares fell 3%.
+slip / dip / ease,小幅下跌（很小）,The dollar slipped against the euro.
+slide,下滑（中等）,Tech stocks slid for a second day.
+tumble / sink,大跌（较大）,Shares tumbled 12% on weak guidance.
+plunge / plummet,暴跌（很大）,The stock plunged 30% after the fraud report.
+crash,崩盘（极大）,The market crashed in 1987.
+flat / unchanged,持平,The S&P 500 closed flat.
+mixed,涨跌互现,Stocks were mixed on Friday.
+outperform / underperform,跑赢 / 跑输,Value stocks outperformed growth.
+top / exceed / beat,超过,Revenue topped $100 billion.
+trail / lag,落后于,Results trailed expectations.
+weigh on,拖累,Rising yields weighed on tech.
+lift / boost,提振,Strong data lifted stocks.
+fuel,推动；助长,AI demand fueled chip sales.
+spark / trigger,引发,The report sparked a sell-off.
+ease (concerns),缓解（担忧）,The data eased recession fears.
+stoke / fan (fears),加剧（担忧）,Hot CPI stoked inflation fears.
+slash / cut,大幅削减,The company slashed 10% of jobs.
+raise / hike,提高,Netflix raised prices.
+unveil / announce,发布；宣布,Apple unveiled a new iPhone.
+warn,警告（常指业绩预警）,The retailer warned of weak holiday sales.
+probe / investigate,调查,Regulators launched a probe.
+settle,和解,The company settled the lawsuit.
+robust / strong,强劲的,Demand remains robust.
+sluggish / weak / soft,疲软的,Sales were sluggish in China.
+resilient,有韧性的,Consumer spending is resilient.
+sticky,顽固的（常形容通胀）,Services inflation is sticky.
+elevated,偏高的,Volatility remains elevated.
+muted,平淡的,The market reaction was muted.
+upbeat / bullish,乐观的,Management gave an upbeat outlook.
+cautious / bearish,谨慎的 / 悲观的,The CFO struck a cautious tone.
+better-than-expected,好于预期的,Better-than-expected earnings lifted shares.
+worse-than-expected,差于预期的,Worse-than-expected jobs data hit stocks.
