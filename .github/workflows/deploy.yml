@@ -1,10 +1,12 @@
-# 推送到 main 分支后，自动构建 MkDocs 站点并发布到 GitHub Pages。
+# 推送到 main 分支后：先扫描敏感信息，通过后再构建 MkDocs 站点并发布到 GitHub Pages。
+# 扫描发现问题时，构建和发布都不会执行。Pull request 也会扫描，但不会发布。
 # 首次使用：在 GitHub 仓库 Settings → Pages → Build and deployment → Source 选择 “GitHub Actions”。
 name: Deploy site to GitHub Pages
 
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -13,11 +15,26 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
+  scan:
+    name: Scan for secrets and personal info
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 扫描完整提交历史，不只是最新版本
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_CONFIG: .gitleaks.toml
+          GITLEAKS_ENABLE_COMMENTS: "false"
+
   build:
+    needs: scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,6 +50,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

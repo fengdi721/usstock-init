@@ -38,6 +38,26 @@ usstock/
 2. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 3. 之后每次推送都会自动构建并发布。
 
+## 敏感信息检查
+
+每次推送到 `main` 或提交 pull request 时，GitHub Actions 会先用 [gitleaks](https://github.com/gitleaks/gitleaks) 扫描**完整提交历史**。发现问题时构建和发布都会停止，网站不会更新。
+
+扫描内容（规则在 [.gitleaks.toml](.gitleaks.toml)）：
+
+- gitleaks 默认规则：API key、token、密码、私钥等 150 多种
+- 自定义规则：IBAN 银行账号、IBKR 账号（`U` + 7–8 位数字）、法国税号（13 位）、个人邮箱、法国电话号码
+
+文档里用作示例的 `U1234567` 已经加入白名单。如果误报了别的示例，在 `.gitleaks.toml` 对应规则的 `allowlist` 里加上即可。
+
+本地提交前也可以先扫一遍（需要先 `brew install gitleaks`）：
+
+```bash
+gitleaks git . --config .gitleaks.toml --redact --verbose
+```
+
+**被拦下之后怎么办：**
+只删掉文件里的敏感内容再提交是不够的，因为它还留在提交历史里。要用 `git filter-repo` 或 BFG 改写历史后强制推送；如果是密码或 token，**先去对应网站把它作废**。
+
 ## Git 提交约定
 
 - `docs(阶段): 内容`，例如 `docs(foundations): add US vs A-share comparison`
