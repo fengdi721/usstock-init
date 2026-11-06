@@ -1,0 +1,109 @@
+site_name: 美股ABC
+site_description: 从A股老手到美股专业投资者：一位法国居民的美股学习路线
+site_author: fengdi
+site_url: https://fengdi721.github.io/usstock-init/
+repo_url: https://github.com/fengdi721/usstock-init
+repo_name: fengdi721/usstock-init
+edit_uri: edit/main/docs/
+copyright: 仅供个人学习，不构成投资建议
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+
+nav:
+  - 首页: index.md
+  - 学习路线: roadmap.md
+  - 财经英语:
+      - 00-english/index.md
+      - 学习方法与每周安排: 00-english/01-method.md
+      - 核心词汇 200: 00-english/02-core-vocabulary.md
+      - 读懂新闻与财报: 00-english/03-reading-news-and-filings.md
+      - 衍生品英语与听力: 00-english/04-options-english-and-listening.md
+  - 阶段一 基础:
+      - 01-foundations/index.md
+      - 美股 vs A股: 01-foundations/01-us-vs-a-share.md
+      - 美股市场全景: 01-foundations/02-market-overview.md
+      - 法国居民账户体系: 01-foundations/03-accounts-france.md
+      - 法国居民税务: 01-foundations/04-tax-france.md
+  - 阶段二 平台与信息:
+      - 02-platform/index.md
+      - 券商平台上手: 02-platform/01-broker-walkthrough.md
+      - 订单类型: 02-platform/02-order-types.md
+      - 换汇与交易成本: 02-platform/03-fx-and-costs.md
+      - 读懂财报: 02-platform/04-reading-filings.md
+      - 基本面与估值: 02-platform/05-fundamentals.md
+      - 信息源与K线入门: 02-platform/06-information-sources.md
+  - 阶段三 衍生品:
+      - 03-derivatives/index.md
+      - ETF 深入: 03-derivatives/01-etf.md
+      - 期权基础: 03-derivatives/02-options-basics.md
+      - 希腊字母: 03-derivatives/03-greeks.md
+      - 隐含波动率: 03-derivatives/04-implied-volatility.md
+      - 配合正股的期权策略: 03-derivatives/05-stock-plus-options.md
+      - 价差策略: 03-derivatives/06-spreads.md
+      - 期权风险与保证金: 03-derivatives/07-options-risks.md
+      - 其他衍生品: 03-derivatives/08-other-products.md
+  - 阶段四 投资体系:
+      - 04-system/index.md
+      - 组合构建: 04-system/01-portfolio.md
+      - 风险管理: 04-system/02-risk-management.md
+      - 交易日志与复盘: 04-system/03-journal-template.md
+  - 术语表: glossary/index.md
+  - 交易日志: journal/index.md

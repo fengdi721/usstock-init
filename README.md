@@ -1,45 +1,50 @@
 # 美股ABC：从A股老手到美股专业投资者
 
-这个仓库是一份美股学习路线和笔记。从“美股小白”开始，目标是能熟练使用券商平台、读懂市场信息、理解并交易美股衍生品（以期权为主，配合正股）。
+一位法国居民的美股学习路线和笔记，从“美股小白”开始，目标是熟练使用券商平台、读懂市场信息、理解并交易美股衍生品（以期权为主，配合正股）。
 
-## 适合谁读
+在线阅读：<https://fengdi721.github.io/usstock-init/>
 
-| 项目 | 情况 |
-|---|---|
-| 居住地 | 法国税务居民（税务、账户部分按法国规则写） |
-| 已有账户 | 一个法国 PEA，还没有能买美股的账户 |
-| 示例资金 | 文中例子统一按 20,000 欧元计算 |
-| 每周学习时间 | 约 6 小时 |
-| 投资风格 | 以长期持有为主，同时系统学习 |
-| 衍生品 | 先看懂，之后要能配合正股实际交易 |
-| A股经验 | 买卖个股，能看基本K线，不会技术分析 |
-| 英语 | 读财经英文有些吃力，需要同步提升 |
+## 本地预览
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve          # 打开 http://127.0.0.1:8000
+```
 
 ## 目录结构
 
 ```
 usstock/
-├── README.md            本文件：仓库说明
-├── ROADMAP.md           学习路线总计划（分阶段、按周）
-├── docs/
-│   ├── 00-english/      财经英语提升教程（贯穿全程）
-│   ├── 01-foundations/  阶段一：美股基础、法国账户体系、税务
-│   ├── 02-platform/     阶段二：券商平台操作、读取市场信息
-│   ├── 03-derivatives/  阶段三：ETF、期权及其他衍生品
-│   └── 04-system/       阶段四：投资体系、风险管理
-├── glossary/            中英术语表
-└── journal/             交易日志与每周复盘
+├── mkdocs.yml                 站点配置和导航
+├── requirements.txt           构建依赖
+├── .github/workflows/         推送后自动发布到 GitHub Pages
+└── docs/
+    ├── index.md               首页
+    ├── roadmap.md             学习路线总计划
+    ├── 00-english/            财经英语（贯穿全程）
+    ├── 01-foundations/        阶段一：美股基础、法国账户与税务
+    ├── 02-platform/           阶段二：券商平台、读取市场信息
+    ├── 03-derivatives/        阶段三：ETF、期权及其他衍生品
+    ├── 04-system/             阶段四：投资体系与风险管理
+    ├── glossary/              中英术语表
+    └── journal/               交易日志与每周复盘
 ```
 
-（目录会随着学习进度逐步创建。）
+## 发布到 GitHub Pages
 
-## 怎么使用
+1. 推送到 GitHub 的 `main` 分支。
+2. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+3. 之后每次推送都会自动构建并发布。
 
-1. 先读 [ROADMAP.md](ROADMAP.md)，了解整体路线和每周安排。
-2. 每周按计划读对应文档，完成文末的“练习”。
-3. 每周日在 `journal/` 写一篇复盘。
-4. 每完成一块内容提交一次 git，提交历史本身就是学习进度记录。
+## Git 提交约定
+
+- `docs(阶段): 内容`，例如 `docs(foundations): add US vs A-share comparison`
+- `plan: ...` 计划调整
+- `journal: week N review` 每周复盘
+- `chore: ...` 站点配置等杂项
 
 ## 免责声明
 
-本仓库内容仅用于个人学习，不构成投资建议。税务和账户规则会变化，涉及具体金额和申报时请以官方信息或专业顾问为准。
+仅用于个人学习，不构成投资建议。税务和账户规则会变化，涉及具体金额和申报时请以官方信息或专业顾问为准。
