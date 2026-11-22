@@ -27,7 +27,8 @@ usstock/
     ├── 01-foundations/        阶段一：美股基础、法国账户与税务
     ├── 02-platform/           阶段二：券商平台、读取市场信息
     ├── 03-derivatives/        阶段三：ETF、期权及其他衍生品
-    ├── 04-system/             阶段四：投资体系与风险管理
+    ├── 04-options/            阶段四：12周期权专项训练营
+    ├── 04-system/             阶段五：投资体系与风险管理
     ├── glossary/              中英术语表
     └── journal/               交易日志与每周复盘
 ```

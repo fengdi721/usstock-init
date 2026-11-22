@@ -100,7 +100,20 @@ nav:
       - 价差策略: 03-derivatives/06-spreads.md
       - 期权风险与保证金: 03-derivatives/07-options-risks.md
       - 其他衍生品: 03-derivatives/08-other-products.md
-  - 阶段四 投资体系:
+  - 阶段四 期权专项:
+      - 04-options/index.md
+      - 基础实验室: 04-options/01-foundation-lab.md
+      - 从观点到策略: 04-options/02-strategy-selection.md
+      - 波动率结构: 04-options/03-volatility-structures.md
+      - 时间结构: 04-options/04-time-structures.md
+      - 合成头寸: 04-options/05-synthetics.md
+      - 开仓、调仓与退出: 04-options/06-position-management.md
+      - 事件、行权与到期: 04-options/07-events-expiration.md
+      - 组合 Greeks 与仓位: 04-options/08-portfolio-risk.md
+      - 综合案例册: 04-options/09-casebook.md
+      - 个人策略手册: 04-options/10-playbook.md
+      - 盲测与毕业考核: 04-options/11-graduation.md
+  - 阶段五 投资体系:
       - 04-system/index.md
       - 组合构建: 04-system/01-portfolio.md
       - 风险管理: 04-system/02-risk-management.md
