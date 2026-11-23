@@ -113,6 +113,16 @@ nav:
       - 综合案例册: 04-options/09-casebook.md
       - 个人策略手册: 04-options/10-playbook.md
       - 盲测与毕业考核: 04-options/11-graduation.md
+      - 上市期权交易台实训:
+          - 04-options/desk/index.md
+          - 报价与估值: 04-options/desk/valuation.md
+          - 波动率曲面: 04-options/desk/surface.md
+          - 波动率相对价值: 04-options/desk/relative-value.md
+          - 动态对冲: 04-options/desk/hedge.md
+          - 执行与盘后归因: 04-options/desk/execution.md
+          - 组合与资金压力: 04-options/desk/risk.md
+          - 策略研究与验证: 04-options/desk/research.md
+          - 估值实验与独立交接: 04-options/desk/lab.md
   - 阶段五 投资体系:
       - 04-system/index.md
       - 组合构建: 04-system/01-portfolio.md
